@@ -1,62 +1,75 @@
- html,body{
-    margin: 0px;
-    font-family: monospace, monospace;
+html,body{
+   margin: 0px;
+   font-family: monospace, monospace;
 
- }
+}
 
- .container-fluid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
- }
- .login-box{
-    box-shadow: 0px -2px 35px 0px rgba(0,0,0,0.75);
-    background-color: wheat;
-    min-width: 30%;
-    min-height: 50%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
- }
- .login-title{
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
- }
-
- input{
-    display: flex;
-    flex-grow: .08;
-    align-self: center;
-    margin: 10px;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: groove;
-    background-color: wheat;
-    border-radius: .5vh;
- }
-.button-class{
+.container-fluid{
    display: flex;
-    width: 9vw;
-    height: 3vh;
-    justify-content: center;
-    align-self: center;
-    margin: 10px;
-    border-style: hidden;
-    background-color: rgb(95, 158, 160);
-    border-radius: 10px;
-    overflow: hidden;
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+   background-image: url("https://images.pexels.com/photos/7940773/pexels-photo-7940773.jpeg?auto=compress&cs=tinysrgb&w=1600");
+   background-size: cover;
+  }
+
+  
+.site{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+
+.login-box{
+   box-shadow: 0px -2px 35px 0px rgba(0,0,0,0.75);
+   background-color: rgb(158, 178, 188);
+   min-width: 30%;
+   min-height: 50%;
+   display: flex;
+   flex-direction: column;
+   border-radius: 30px;
+}
+
+.login-title{
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+}
+
+input{
+   display: flex;
+   flex-grow: .08;
+   align-self: center;
+   margin: 10px;
+   border-top-style: hidden;
+   border-right-style: hidden;
+   border-left-style: hidden;
+   border-bottom-style: groove;
+   background-color: rgb(158, 178, 188);
+   border-radius: .5vh;
+}
+.button-class{
+  display: flex;
+   width: 9vw;
+   height: 3vh;
+   justify-content: center;
+   align-self: center;
+   margin: 10px;
+   border-style: hidden;
+   background-color: rgb(143, 109, 93);
+   border-radius: 10px;
+   box-shadow: 5px 4px 5px 0px rgba(0,0,0,0.75);
+   overflow: hidden;
 }
 
 @media (any-hover: hover) {
-   .button-class:hover {
-     background: rgb(65, 107, 108);
-   }
-   input:hover {
-      background-color: rgb(204, 185, 150);
-   }
- }
-
+  .button-class:hover {
+    background: rgb(92, 70, 60);
+  }
+  input:hover {
+     background-color: rgb(130, 146, 155);
+  }
+}
